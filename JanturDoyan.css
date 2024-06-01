@@ -1,0 +1,134 @@
+.carousel-content{
+    /* background-color: #2b2a2a; */
+    /* border: solid rgb(15, 15, 15); */
+    margin-bottom: 30px;
+   
+}
+
+/* navbar */
+.li-navbar {
+    list-style-type: none;
+    padding: 4px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+/* yang terjadi ketika mouse di geser ke li-navbar */
+.li-navbar:hover {
+    /* akan berwarna tomato ketika mouse ke li-navbar */
+    background-color: #B4A5A5;
+    /* dalam setengah detik akan bertansisi */
+    transition: .5s ease-in-out;
+    /* dengan delay 3detik, 
+    baru kemudian terjadi transisi */
+    transition-delay: .3s;
+    /* biar agak bulat sudutnya */
+    border-radius: 10px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family:monospace;
+    text-shadow: 2px 2px 2px #ffffff;
+    color: #b4a2a2;
+}
+.menu {
+    float: right;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+    background-color: #423F3E;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;    
+}
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration:none;
+}
+
+
+.content{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: justify;
+    text-indent: 2px;
+    font-family:Arial, sans-serif;
+}
+
+.content p{
+    /* text-indent: 20px; */
+    line-height: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* word-spacing: 10px; */
+    color: black;
+}
+
+.a-content{
+    color: #351b9b;
+}
+
+.h3-content{
+    margin-top: 30px;
+    font-weight: 400px;
+}
+
+.img-logo-lokasi{
+    width: 50px;
+}
+
+.img-content-deks img{
+    margin-top: 5%;
+    margin-bottom: 4%;
+    width: 57%;
+}
+
+.footer{
+    width:80%;
+    margin:0 auto; 
+}
+
+footer {
+    margin-top: 60px;
+	padding:30px 0;
+	background-color: #423F3E;
+	color: #ffff;
+	text-align: center;
+}
